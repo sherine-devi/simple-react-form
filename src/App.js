@@ -1,13 +1,13 @@
-import Form from "./components/form"
+import Form from "./components/Form"
 
 function App() {
   return (
-    <div>
+    <>
       <h1>Simple React Form</h1>
-      <p>Simple form with React & HTML with validation. </p>
+      <p>Simple sign up and login form with React & HTML. </p>
       <br></br>
       <Form />
-    </div>
+    </>
   );
 }
 
